@@ -1,0 +1,131 @@
+body{
+    background-image: url(gg.webp);
+    background-size: cover;
+}
+.main{
+    background-color: white;
+    height: 550px;
+    width: 55%;
+    margin-top: 6%;
+    margin-left:21%;
+    border-radius: 5px;
+}
+
+
+.right{
+    background-color: rgb(255, 255, 255);
+    height: 370px;
+    width: 50%;
+    float: right;
+
+}
+
+.left{
+    background-color: rgb(255, 255, 255);
+    height: 370px;
+    width: 50%;
+    float: left;
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(32, 115, 171);
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+.btn1{
+    height: 50px;
+    width: 350px;
+    margin-left: 25px;
+    border-radius: 3px;
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(185, 177, 177);
+    border: 0.5px solid;
+    text-align: left;
+    
+    }
+.btn2{
+    height: 50px;
+    width: 350px;
+    margin-left: 25px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(213, 210, 210);
+    border: 0.5px solid;
+    text-align: left;
+}
+.btn3{
+    height:35px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(76, 87, 83);
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover{
+    
+    background-color: rgba(225, 222, 221, 0.614);
+    cursor: pointer;
+}
+
+.btn1 img,
+.btn2 img {
+  vertical-align: middle; 
+  margin-right: 10px; 
+  width: 20px; 
+  height: 20px; 
+}
+
+.txn{
+    height: 45px;
+    width: 350px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: solid rgb(219, 219, 229) 0.5px;
+    
+}
+
+.tbl{
+    height: 370px;
+    width: 50%;
+    }
+.line{
+    width: 100%;
+}
+.login{
+    height: 40px;
+    width: 70px;
+    position:relative;
+    right: 50px;
+   
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(83, 130, 196);
+    border: none;
+    color: antiquewhite;
+}
+.forgot{
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.txn:hover{
+    cursor: pointer;
+    border: 1px solid rgb(19, 19, 225);
+}
